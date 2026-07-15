@@ -50,27 +50,32 @@ const AboutMe = () => {
 
           <div className=" flex flex-col gap-4  items-center justify-center  text-justify">
             <p className="">
-              I&apos;m Mike Charpin, a software developer with experience in
-              industrial design as a physical product designer. I bring a strong
-              background in usability-focused design having crafted a diverse
-              range of products, from fitness machines and printers to tabletop
-              RPG accessories and military helmets.
+              I&apos;m Mike Charpin an industrial designer who ended up writing
+              code too, mostly because I got tired of hardware costing money
+              every time I wanted to test an idea.
             </p>
             <p className="">
-              My passion lies in seeing ideas come to life, refining them
-              through user feedback, and ultimately making a positive impact on
-              people&apos;s lives. I&apos;m known for my resourcefulness,
-              tackling challenges head-on, and knowing when to seek expertise.
-              My approach to problem-solving is with research, exploration,
-              rapid prototyping, and a commitment to user-centered solutions.
+              I&apos;ve designed things that had to survive fairly different
+              tests: fitness equipment that needed to hold up to real athletes
+              pulling on it, ID card printers that had to work for years of
+              daily use, military helmet mounts that had actual ballistic
+              requirements, and sci-fi dice vaults that just needed to feel
+              satisfying to open. Along the way I&apos;ve machined aluminum,
+              snapped more taps than I&apos;d like to admit, cast resin parts in
+              a shared studio until the fumes became a problem, and soldered
+              LEDs into a 3D printed enclosure to make dice glow.
             </p>
             <p className="">
-              I aim to be a creative problem solver who delivers results while
-              fostering a collaborative working environment. Whether I&apos;m
-              working on a website, web app, or physical product, I bring my
-              commitment to design excellence and user-centered thinking to
-              every project. I look forward to the opportunity to bring my
-              skills and passion to your next project.
+              Somewhere in there I also picked up web development, first to
+              build sites for family businesses, then full apps. I like it for
+              the same reason I like CNC and 3D printing: you get to test an
+              idea, find out what&apos;s wrong with it, and fix it, without
+              waiting on a supplier or a machine shop.
+            </p>
+            <p className="">
+              Most of what&apos;s on this site started as a rough version that
+              didn&apos;t work right the first time. That&apos;s usually where
+              the real design work happens.
             </p>
           </div>
         </div>
