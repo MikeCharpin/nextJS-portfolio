@@ -26,7 +26,7 @@ const HireMe = () => {
                 md:w-12 md:h-12 md:text-[10px] text-center
               "
         >
-          Hire me&#129497;
+          Contact me
         </Link>
       </div>
     </div>
