@@ -109,16 +109,6 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href={"https://www.threads.net/@gentleman_tomcat"}
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mr-3 dark:fill-light"
-          >
-            <ThreadsIcon />
-          </motion.a>
-
-          <motion.a
             href={"https://github.com/MikeCharpin"}
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -146,16 +136,6 @@ const NavBar = () => {
             className="w-6 mx-3 "
           >
             <BehanceIcon />
-          </motion.a>
-
-          <motion.a
-            href={"https://www.tumblr.com/dead-channel"}
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 fill-dark dark:fill-light"
-          >
-            <TumblrIcon />
           </motion.a>
 
           <button
@@ -224,15 +204,6 @@ const NavBar = () => {
             </nav>
             <nav className="flex items-center justify-center flex-wrap my-2">
               <motion.a
-                href={"https://www.threads.net/@gentleman_tomcat"}
-                target={"_blank"}
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-6 mr-3 sm:mx-1 fill-light dark:fill-dark"
-              >
-                <ThreadsIcon />
-              </motion.a>
-              <motion.a
                 href={"https://github.com/MikeCharpin"}
                 target={"_blank"}
                 whileHover={{ y: -2 }}
@@ -259,15 +230,7 @@ const NavBar = () => {
               >
                 <BehanceIcon />
               </motion.a>
-              <motion.a
-                href={"https://www.tumblr.com/dead-channel"}
-                target={"_blank"}
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-6 mx-3 fill-light dark:fill-dark rounded-full sm:mx-1"
-              >
-                <TumblrIcon />
-              </motion.a>
+
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-3 flex items-center justify-center rounded-full p-1
