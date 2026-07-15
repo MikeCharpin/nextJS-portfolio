@@ -40,15 +40,16 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full">
               <AnimatedText
-                text="Building Digital Products with Precision and Passion"
+                text="I design things, break some prototypes, and fix them until they work."
                 classname="!text-left !text-6xl 
               xl:!text-4xl lg:!text-center lg:!text-4xl md:!text-5xl sm:!text-2xl
               "
               />
               <p className="py-4 px-2 text-base font-medium md:text-sm sm:text-xs">
-                Web developer with experience bringing products to market as an
-                industrial designer, blending usability expertise with coding to
-                create empathetic digital experiences.
+                Industrial design background across consumer hardware and
+                small-batch products, plus the web development skills to build
+                the sites and apps around them. Most of what&apos;s here started
+                as a version that didn&apos;t work right the first time.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center ">
                 <Link
