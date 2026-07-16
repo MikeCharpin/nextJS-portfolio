@@ -1,5 +1,5 @@
 import React from "react";
-import { CircularTextSoftware } from "./Icons";
+import { CircularTextID } from "./Icons";
 import Link from "next/link";
 
 const HireMe = () => {
@@ -11,7 +11,7 @@ const HireMe = () => {
     "
     >
       <div className="w-48 h-auto flex items-center justify-center relative md:w-24">
-        <CircularTextSoftware
+        <CircularTextID
           className={"fill-dark animate-reverse-spin dark:fill-light"}
         />
 
