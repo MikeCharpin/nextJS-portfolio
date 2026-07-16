@@ -60,23 +60,46 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            position={"Owner, Developer, Designer"}
-            company={"Michael Charpin Design"}
-            companyLink={"https://www.MichaelCharpin.com"}
-            time={"2022 - current"}
-            address={"Brooklyn, NY"}
+            position={"Lecturer, Industrial Design"}
+            company={"Iowa State University"}
+            companyLink={
+              "https://www.design.iastate.edu/academics/departments/industrial-design/"
+            }
+            time={"2025 - current"}
+            address={"Ames, IA"}
             work={
-              "Lead the development of tailored software solutions, transforming client visions into innovative digital products. By combining technical expertise with a deep understanding of user needs, I aspire to consistently deliver impactful results that exceed client expectations"
+              "Teaching studio and technical courses from intro through senior capstone, including a course I built from scratch on parametric CAD and rendering. I try to give students the version of that learning curve I wish I'd had."
             }
           />
           <Details
-            position={"Project Manager"}
+            position={"Production Operations Manager"}
+            company={"Funny Face Bakery"}
+            companyLink={"https://funnyfacebakery.com/"}
+            time={"2024 - 2025"}
+            address={"Brooklyn, NY"}
+            work={
+              "Ran production on a 30-person manufacturing floor, which meant a lot less design and a lot more logistics than I expected; workflow redesign, waste reduction, and standardizing print production so the team wasn't reinventing the process every shift."
+            }
+          />
+          <Details
+            position={"Web Developer & Designer"}
+            company={"Michael Charpin Design"}
+            companyLink={"https://www.MichaelCharpin.com"}
+            time={"2022 - 2025"}
+            address={"Brooklyn, NY"}
+            work={
+              "Built and shipped two full products on my own; a 300-page searchable resource site for vintage Datsun parts, and a task-prioritization app I'd wanted to build for three years. Learned full-stack development from scratch to make both happen."
+            }
+          />
+
+          <Details
+            position={"Project Manager & Senior Industrial Designer"}
             company={"Miniature World"}
             companyLink={"https://www.BigMiniWorld.com"}
             time={"2022 - 2023"}
             address={"Staten Island, NY"}
             work={
-              "Collaborating with a team of 40 model makers we crafted an extensive model train exhibit with detailed replicas of various global regions. Additionally, I optimized resource allocation, simplified project scopes to manage risks, and contributed to captivating mechanical animations."
+              "Directed a team of model makers building large-scale exhibit infrastructure and custom display systems, including interactive mechatronic animations. Also set up woodshop safety protocols that hadn't existed before I got there."
             }
           />
 
@@ -90,7 +113,16 @@ const Experience = () => {
               "Established clear guidelines for customer interactions and inventory management, boosting our sales team's confidence and our reputation as a trusted motorcycle safety gear retailer. I also enhanced order accuracy, synchronized our inventory systems, and managed the relocation of our inventory from Brooklyn to Bridgeport."
             }
           />
-
+          <Details
+            position={"Industrial Designer"}
+            company={"Dead Channel"}
+            companyLink={"https://www.MichaelCharpin.com"}
+            time={"2020 - 2022"}
+            address={"Brooklyn, NY"}
+            work={
+              "My own product line, sci-fi inspired dice storage, designed and fabricated in-house on a CNC, laser cutter, and 3D printer I ran myself. Took a product from a lunch-break sketch through aluminum machining, resin casting, and a lot of prototypes that didn't work before the ones that did."
+            }
+          />
           <Details
             position={"Senior Industrial Designer"}
             company={"Proteus Motion"}
@@ -98,7 +130,7 @@ const Experience = () => {
             time={"2017 - 2020"}
             address={"Long Island City, NY"}
             work={
-              "I played a key role in fast-tracking handle prototypes to showcase the Proteus fitness machine's potential to investors. I oversaw the entire product life cycle and contributed to 6 patent applications, solidifying our technological leadership."
+              "Designed and fabricated the prototype systems used to demonstrate a resistance-training platform to early investors, including the aluminum and polymer handles that had to work well enough to convince people to fund the company. Learned CNC machining and CAM workflows largely on my own, cutting prototype turnaround from weeks to days."
             }
           />
 
@@ -109,7 +141,7 @@ const Experience = () => {
             time={"2015 - 2017"}
             address={"Holtsville, NY"}
             work={
-              "Contriburted to the design of accessories for barcode scanners, mobile touch computers, and ID printers, utilizing human factors research. My role involved on-site and remote work, color analysis, and incorporating feedback from senior designers, demonstrating adaptability and a commitment to design enhancement."
+              "Worked on award-winning enterprise hardware, including the ZC350 ID card printer, and redesigned scanner iconography that measurably cut customer-service issues; a rare case of a small design change having an obvious, countable effect."
             }
           />
 
@@ -120,7 +152,7 @@ const Experience = () => {
             time={"2013 - 2015"}
             address={"Boston, MA"}
             work={
-              "Developed a robust product control system, and created comprehensive technical documentation for both existing products and products in development. "
+              "Built engineering-change-order systems and worked on military helmet mounting systems that had to meet ballistic requirements; my first real exposure to designing for a hard, non-negotiable spec."
             }
           />
         </ul>
