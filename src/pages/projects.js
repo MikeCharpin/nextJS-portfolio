@@ -247,109 +247,7 @@ const projects = () => {
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText
-            text={"Web Development"}
-            classname="mb-16 sm:mb-8 !text-6xl md:!text-5xl sm:!text-3xl"
-          />
-
-          <div
-            className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 
-                "
-          >
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Tulip Tasks Prioritization App"}
-                summary={
-                  "A thoughtful React web app designed to help overwhelmed people prioritize thier goals, projects, and tasks."
-                }
-                link={"/tulip-tasks"}
-                target={""}
-                img={TulipTasksImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin/taskPriority"}
-              />
-            </div>
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Datsun Resource Website"}
-                summary={
-                  "A comprehensive and searchable collection of Datsun Fairlady-Z part diagrams."
-                }
-                link={"https://datsunresource.online/"}
-                target={"_blank"}
-                img={DatsunResourceImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin"}
-              />
-            </div>
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Personal Portfolio Website"}
-                summary={
-                  "This website you are on right now! Built with React, NextJS, Framer Motion and TailwindCSS"
-                }
-                link={"/"}
-                img={portfolioImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin/nextJS-portfolio"}
-              />
-            </div>
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Resume Builder React App"}
-                summary={
-                  "Responsive web app used to build and format a resume. Built with TypeScript, React, Vite, TailwindCSS, and Shadcn/ui"
-                }
-                link={"https://resume-builder-xoyp.vercel.app/"}
-                target={"_blank"}
-                img={ResumeBuilderImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin/ResumeBuilder"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Rock Paper Scissors"}
-                link={"https://MikeCharpin.github.io/RPS/"}
-                target={"_blank"}
-                img={rockPaperScissorsImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/RPS"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Book Tracking"}
-                link={"https://MikeCharpin.github.io/library-app/"}
-                target={"_blank"}
-                img={summerReadingImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/library-app"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Landscaping Company"}
-                link={"https://MikeCharpin.github.io/Pratum-Landscapes/"}
-                target={"_blank"}
-                img={pratumImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/Pratum-Landscapes"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Pixel Art Drawing"}
-                link={"https://MikeCharpin.github.io/Pixel-Sketch/"}
-                target={"_blank"}
-                img={pixelSketchImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/Pixel-Sketch"}
-              />
-            </div>
-          </div>
-
-          <AnimatedText
+           <AnimatedText
             text={"Industrial Design"}
             classname="mb-8 mt-16 !text-6xl md:!text-5xl sm:!text-3xl"
           />
@@ -413,6 +311,66 @@ const projects = () => {
                 type={"Dead Channel"}
               />
             </div>
+          </div>
+
+          <AnimatedText
+            text={"Web Development"}
+            classname="mb-16 sm:mb-8 !text-6xl md:!text-5xl sm:!text-3xl"
+          />
+
+          <div
+            className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 
+                "
+          >
+            <div className="col-span-2">
+              <FeaturedProject
+                title={"Tulip Tasks Prioritization App"}
+                summary={
+                  "A thoughtful React web app designed to help overwhelmed people prioritize thier goals, projects, and tasks."
+                }
+                link={"/tulip-tasks"}
+                target={""}
+                img={TulipTasksImage}
+                type={"Featured Project"}
+                github={"https://github.com/MikeCharpin/taskPriority"}
+              />
+            </div>
+            <div className="col-span-2">
+              <FeaturedProject
+                title={"Datsun Resource Website"}
+                summary={
+                  "A comprehensive and searchable collection of Datsun Fairlady-Z part diagrams."
+                }
+                link={"https://www.datsunresource.com/"}
+                target={"_blank"}
+                img={DatsunResourceImage}
+                type={"Featured Project"}
+                github={"https://github.com/MikeCharpin"}
+              />
+            </div>
+            <div className="col-span-2">
+              <FeaturedProject
+                title={"Personal Portfolio Website"}
+                summary={
+                  "This website you are on right now! Built with React, NextJS, Framer Motion and TailwindCSS"
+                }
+                link={"/"}
+                img={portfolioImage}
+                type={"Featured Project"}
+                github={"https://github.com/MikeCharpin/nextJS-portfolio"}
+              />
+            </div>
+            <div className="col-span-1 md:col-span-2">
+              <MinorProject
+                title={"Rock Paper Scissors"}
+                link={"https://MikeCharpin.github.io/RPS/"}
+                target={"_blank"}
+                img={rockPaperScissorsImage}
+                type={"Portfolio Website"}
+                github={"https://github.com/MikeCharpin/RPS"}
+              />
+            </div>
+            
           </div>
         </Layout>
       </main>
