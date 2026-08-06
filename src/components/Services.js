@@ -28,7 +28,7 @@ const Services = () => {
     <div className="my-16 px-4">
       <AnimatedText
         text={"Services"}
-        classname="pb-4 !text-5xl md:!text-4xl sm:!text-3xl"
+        className="pb-4 !text-5xl md:!text-4xl sm:!text-3xl"
       />
       <p className="text-center max-w-2xl mx-auto pb-8 text-base font-medium md:text-sm sm:text-xs">
         A small number of engagements at a time. Every project starts with a
