@@ -81,8 +81,7 @@ export default function Home() {
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-700 dark:text-zinc-300">
                 Concept sketch to investor-ready prototype. Mechanical design,
-                fabrication, and the software or e-commerce layer around it —
-                from one person who does all three.
+                fabrication, and the software or e-commerce layer around it.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
