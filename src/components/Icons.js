@@ -492,13 +492,13 @@ export const CircularText = ({ className, ...rest }) => (
   </svg>
 );
 
-export const LinkArrow = ({ className, ...rest }) => (
+export const LinkArrow = ({ className = "", ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={24}
     viewBox="0 0 24 24"
-    className={`w-full h-auto ${className}`}
+    className={className}
     {...rest}
   >
     <path fill="none" d="M0 0h24v24H0z" />
