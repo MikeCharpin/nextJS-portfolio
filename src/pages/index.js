@@ -35,7 +35,7 @@ export default function Home() {
         <Layout>
           {/* ---------- HERO ---------- */}
           <section className="flex items-center justify-between gap-16
-    py-16
+    
     lg:flex-col lg:gap-10">
             {/* Image */}
             <div className="w-[42%] lg:w-full">
@@ -90,12 +90,12 @@ export default function Home() {
                   href="mailto:Michael.Charpin@gmail.com"
                   target="_blank"
                   className="
-                    group inline-flex items-center gap-2
-                    rounded-lg
+                    group inline-flex items-center gap-1.5
+                    rounded-md
                     border border-transparent
                     bg-dark
-                    px-5 py-2.5
-                    text-base font-semibold text-light
+                    px-4 py-2
+                    text-sm font-semibold text-light
                     shadow-sm
                     transition-all duration-200
                     hover:-translate-y-0.5 hover:border-dark hover:bg-light hover:text-dark hover:shadow-md
@@ -104,7 +104,7 @@ export default function Home() {
                   "
                 >
                   Tell me about your product
-                  <LinkArrow className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
+                  <LinkArrow className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
                 </Link>
 
                 <Link
