@@ -6,8 +6,6 @@ import {
   GithubIcon,
   LinkedInIcon,
   BehanceIcon,
-  ThreadsIcon,
-  TumblrIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -104,6 +102,7 @@ const NavBar = () => {
         <nav>
           <CustomLink href={"/"} title="Home" classname="mr-4" />
           <CustomLink href={"/projects"} title="Projects" classname="mx-4" />
+          <CustomLink href={"/about"} title="About" classname="ml-4" />
           {/* <CustomLink href={"/articles"} title="Articles" classname='ml-4'/> */}
         </nav>
 
@@ -197,6 +196,12 @@ const NavBar = () => {
               <CustomMobileLink
                 href={"/projects"}
                 title="Projects"
+                classname=""
+                toggle={handleClick}
+              />
+              <CustomMobileLink
+                href={"/about"}
+                title="About"
                 classname=""
                 toggle={handleClick}
               />

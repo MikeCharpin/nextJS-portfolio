@@ -42,13 +42,13 @@ const TulipTasks = () => {
           <div class="flex flex-col items-center justify-center ">
             <AnimatedText
               text={"Tulip Tasks"}
-              classname="mb-8 sm:mb-2 !text-8xl md:!text-6xl sm:!text-4xl"
+              className="mb-8 sm:mb-2 !text-8xl md:!text-6xl sm:!text-4xl"
             />
             <AnimatedCaption
               text={
                 "Tulip Tasks is designed to help users overcome decision paralysis and prioritize tasks effectively by providing a structured and intuitive interface for goal, project, and task management."
               }
-              classname="mb-4 sm:mb-4 !text-lg md:!text-md sm:!text-md"
+              className="mb-4 sm:mb-4 !text-lg md:!text-md sm:!text-md"
             />
             <FramerImage
               src={TulipTasksHeroImage}
@@ -63,7 +63,7 @@ const TulipTasks = () => {
               text={
                 "Tulip Tasks is a solo dev project, using Vite with React and TypeScript for the front-end, Supabase for real-time data and auth, local storage integration for account-free use, plus TailwindCSS with Shadcn for ui components."
               }
-              classname="mb-4 sm:mb-8  !text-sm md:!text-sm sm:!text-sm"
+              className="mb-4 sm:mb-8  !text-sm md:!text-sm sm:!text-sm"
             /> */}
             <div class="flex items-end justify-center pt-4">
               <ul className="text-sm">
@@ -152,7 +152,7 @@ const TulipTasks = () => {
             >
               <AnimatedText
                 text={"UX Wireframing"}
-                classname=" pb-2 !text-6xl md:!text-5xl sm:!text-3xl"
+                className=" pb-2 !text-6xl md:!text-5xl sm:!text-3xl"
               />
               <FramerImage
                 src={TulipTasksWireFrame}

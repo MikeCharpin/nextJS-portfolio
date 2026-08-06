@@ -7,17 +7,15 @@ import Link from "next/link";
 import React from "react";
 import portfolioImage from "../../public/images/projects/Portfolio-Edited-01.jpeg";
 import rockPaperScissorsImage from "../../public/images/projects/RockPaperScissors-edited.jpeg";
-import pratumImage from "../../public/images/projects/Pratum-Edited.jpeg";
-import summerReadingImage from "../../public/images/projects/SummerReading-Edited.jpeg";
-import pixelSketchImage from "../../public/images/projects/PixelSketch-1280x720.jpeg";
 import proteusSingleHandAttachmentImage from "../../public/images/projects/proteusSingleHandAttachment.jpeg";
 import TC75MobileImage from "../../public/images/projects/TC75MobileImage.jpeg";
 import TC51HolsterImage from "../../public/images/projects/TC51HolsterImage.jpeg";
 import DeadChannelLogoImage from "../../public/images/projects/DeadChannelLogoImage.jpeg";
-import ResumeBuilderImage from "../../public/images/projects/ResumeBuilder-Edited.jpeg";
 import TulipTasksImage from "../../public/images/projects/TulipTasks.webp";
 import DatsunResourceImage from "../../public/images/projects/DatsunResource-Edited.webp";
 import DiceCapsuleImage from "../../public/images/projects/DiceCapsule-Edited.webp";
+import ZebraZC300 from "../../public/images/projects/Zebra-ZC300-02.jpg"
+import proteusEnclosure from "../../public/images/projects/Proteus-Enclosure.jpg"
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 
@@ -247,118 +245,16 @@ const projects = () => {
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText
-            text={"Web Development"}
-            classname="mb-16 sm:mb-8 !text-6xl md:!text-5xl sm:!text-3xl"
-          />
-
-          <div
-            className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 
-                "
-          >
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Tulip Tasks Prioritization App"}
-                summary={
-                  "A thoughtful React web app designed to help overwhelmed people prioritize thier goals, projects, and tasks."
-                }
-                link={"/tulip-tasks"}
-                target={""}
-                img={TulipTasksImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin/taskPriority"}
-              />
-            </div>
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Datsun Resource Website"}
-                summary={
-                  "A comprehensive and searchable collection of Datsun Fairlady-Z part diagrams."
-                }
-                link={"https://datsunresource.online/"}
-                target={"_blank"}
-                img={DatsunResourceImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin"}
-              />
-            </div>
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Personal Portfolio Website"}
-                summary={
-                  "This website you are on right now! Built with React, NextJS, Framer Motion and TailwindCSS"
-                }
-                link={"/"}
-                img={portfolioImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin/nextJS-portfolio"}
-              />
-            </div>
-            <div className="col-span-2">
-              <FeaturedProject
-                title={"Resume Builder React App"}
-                summary={
-                  "Responsive web app used to build and format a resume. Built with TypeScript, React, Vite, TailwindCSS, and Shadcn/ui"
-                }
-                link={"https://resume-builder-xoyp.vercel.app/"}
-                target={"_blank"}
-                img={ResumeBuilderImage}
-                type={"Featured Project"}
-                github={"https://github.com/MikeCharpin/ResumeBuilder"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Rock Paper Scissors"}
-                link={"https://MikeCharpin.github.io/RPS/"}
-                target={"_blank"}
-                img={rockPaperScissorsImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/RPS"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Book Tracking"}
-                link={"https://MikeCharpin.github.io/library-app/"}
-                target={"_blank"}
-                img={summerReadingImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/library-app"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Landscaping Company"}
-                link={"https://MikeCharpin.github.io/Pratum-Landscapes/"}
-                target={"_blank"}
-                img={pratumImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/Pratum-Landscapes"}
-              />
-            </div>
-            <div className="col-span-1 md:col-span-2">
-              <MinorProject
-                title={"Pixel Art Drawing"}
-                link={"https://MikeCharpin.github.io/Pixel-Sketch/"}
-                target={"_blank"}
-                img={pixelSketchImage}
-                type={"Portfolio Website"}
-                github={"https://github.com/MikeCharpin/Pixel-Sketch"}
-              />
-            </div>
-          </div>
-
-          <AnimatedText
+           <AnimatedText
             text={"Industrial Design"}
-            classname="mb-8 mt-16 !text-6xl md:!text-5xl sm:!text-3xl"
+            className="mb-4 mt-8 !text-6xl md:!text-5xl sm:!text-3xl"
           />
           <div className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 ">
             <div className="col-span-2">
               <FeaturedIDProject
-                title={"Fitness Machine Attachment"}
+                title={"Fitness Machine Handle"}
                 summary={
-                  "Single hand attachment for the Proteus system, a fitness machine that incorporates robotics."
+                  "A single-hand interface designed to translate human movement into precise interaction with a robotic fitness platform."
                 }
                 link={
                   "https://www.behance.net/gallery/177955717/Proteus-Single-Hand-Attachment"
@@ -367,11 +263,39 @@ const projects = () => {
                 type={"Proteus Motion"}
               />
             </div>
+
+             <div className="col-span-2">
+              <FeaturedIDProject
+                title={"Proteus Enclosure"}
+                summary={
+                  "A complete hardware enclosure solution developed from concept through fabrication, assembly, and production-ready refinement for a robotic fitness system."
+                }
+                link={
+                  "https://www.behance.net/gallery/204164011/Sheet-Metal-Enclosure"
+                }
+                img={proteusEnclosure}
+                type={"Proteus Motion"}
+              />
+            </div>
+
+            <div className="col-span-2">
+              <FeaturedIDProject
+                title={"ZC300 Printer Cartridge"}
+                summary={
+                  "A cartridge experience that transforms an overlooked component into a simple, intuitive, and visually integrated interaction."
+                }
+                link={
+                  "https://www.behance.net/gallery/203712017/ID-Card-Printer-Ribbon-Carrier"
+                }
+                img={ZebraZC300}
+                type={"Zebra Technologies"}
+              />
+            </div>
             <div className="col-span-2">
               <FeaturedIDProject
                 title={"Dead Channel Dice Capsule"}
                 summary={
-                  "The Dice Capsule offers an elegant way to display and transport your favorite dice."
+                 " An interactive sci-fi inspired artifact that transforms dice storage into a captivating display experience."
                 }
                 link={
                   "https://www.behance.net/gallery/178339557/Dead-Channel-Dice-Capsule"
@@ -413,6 +337,66 @@ const projects = () => {
                 type={"Dead Channel"}
               />
             </div>
+          </div>
+
+          <AnimatedText
+            text={"Web Development"}
+            className="mt-24 mb-8 sm:mb-4 !text-6xl md:!text-5xl sm:!text-3xl"
+          />
+
+          <div
+            className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 
+                "
+          >
+            <div className="col-span-2">
+              <FeaturedProject
+                title={"Tulip Tasks Prioritization App"}
+                summary={
+                  "A personal productivity system designed to make managing goals and responsibilities feel more approachable, visual, and engaging."
+                }
+                link={"/tulip-tasks"}
+                target={""}
+                img={TulipTasksImage}
+                type={"Featured Project"}
+                github={"https://github.com/MikeCharpin/taskPriority"}
+              />
+            </div>
+            <div className="col-span-2">
+              <FeaturedProject
+                title={"Datsun Resource Website"}
+                summary={
+                  "A comprehensive and searchable collection of Datsun Fairlady-Z part diagrams."
+                }
+                link={"https://www.datsunresource.com/"}
+                target={"_blank"}
+                img={DatsunResourceImage}
+                type={"Featured Project"}
+                github={"https://github.com/MikeCharpin"}
+              />
+            </div>
+            <div className="col-span-2">
+              <FeaturedProject
+                title={"Personal Portfolio Website"}
+                summary={
+                  "This website you are on right now! Built with React, NextJS, Framer Motion and TailwindCSS"
+                }
+                link={"/"}
+                img={portfolioImage}
+                type={"Featured Project"}
+                github={"https://github.com/MikeCharpin/nextJS-portfolio"}
+              />
+            </div>
+            <div className="col-span-1 md:col-span-2">
+              <MinorProject
+                title={"Rock Paper Scissors"}
+                link={"https://MikeCharpin.github.io/RPS/"}
+                target={"_blank"}
+                img={rockPaperScissorsImage}
+                type={"Portfolio Website"}
+                github={"https://github.com/MikeCharpin/RPS"}
+              />
+            </div>
+            
           </div>
         </Layout>
       </main>

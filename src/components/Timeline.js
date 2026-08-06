@@ -46,7 +46,7 @@ const Timeline = ({ timelineTitle, timelineEvents }) => {
     <div className="mt-8">
       <AnimatedText
         text={timelineTitle}
-        classname="mb-8 sm:mb-8 !text-6xl md:!text-5xl sm:!text-3xl"
+        className="mb-8 sm:mb-8 !text-6xl md:!text-5xl sm:!text-3xl"
       />
 
       <div ref={ref} className="w-[75%] mx-auto relative xs:w-full">

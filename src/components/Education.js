@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
+import AnimatedText from "@/components/AnimatedText";
 
 const Details = ({ type, time, place, info, variant = "primary" }) => {
   const ref = useRef(null);
@@ -45,9 +46,13 @@ const Education = () => {
 
   return (
     <div className="mt-32 ">
-      <h2 className="font-bold text-8xl mb-16 w-full text-center  sm:text-6xl xs:text-4xl ">
+      {/* <h2 className="font-bold text-8xl mb-16 w-full text-center  sm:text-6xl xs:text-4xl ">
         Education
-      </h2>
+      </h2> */}
+      <AnimatedText
+          text={"Education"}
+          className="pb-4 !text-6xl md:!text-5xl sm:!text-4xl"
+        />
 
       <div
         ref={ref}

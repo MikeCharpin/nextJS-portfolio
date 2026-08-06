@@ -1,7 +1,7 @@
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/charpin-profile-2023.jpg";
+import profilePic from "../../public/images/profile/charpin-profile-2024-01.webp";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 
 const AnimatedNumbers = ({ value }) => {
@@ -33,8 +33,8 @@ const AboutMe = () => {
     <>
       <div className="flex flex-col items-center justify-center dark:text-light px-4">
         <AnimatedText
-          text={"About me"}
-          classname="pt-16 pb-4 !text-5xl md:!text-4xl sm:!text-3xl"
+          text={"About"}
+          className=" pb-4 !text-6xl md:!text-5xl sm:!text-4xl"
         />
         <div className="flex w-full xs:flex-col sm:flex-col md:flex-col lg:flex-col gap-8 xs:items-center xs:justify-center md:items-center md:justify-center">
           <Image
@@ -50,9 +50,11 @@ const AboutMe = () => {
 
           <div className=" flex flex-col gap-4  items-center justify-center  text-justify">
             <p className="">
-              I&apos;m Mike Charpin an industrial designer who ended up writing
-              code too, mostly because I got tired of hardware costing money
-              every time I wanted to test an idea.
+              I&apos;m Mike Charpin, an industrial designer who builds the
+              whole thing: mechanical design, CAD, CNC-fabricated prototypes,
+              and the software or e-commerce layer around it. I work with a
+              small number of startups at a time, not an agency, not a
+              generalist.
             </p>
             <p className="">
               I&apos;ve designed things that had to survive fairly different
@@ -66,16 +68,14 @@ const AboutMe = () => {
               LEDs into a 3D printed enclosure to make dice glow.
             </p>
             <p className="">
-              Somewhere in there I also picked up web development, first to
-              build sites for family businesses, then full apps. I like it for
-              the same reason I like CNC and 3D printing: you get to test an
-              idea, find out what&apos;s wrong with it, and fix it, without
-              waiting on a supplier or a machine shop.
+              I also picked up web development along the way, first to build
+              sites for family businesses, then full apps. It means I can
+              build the companion app or e-commerce site around a product,
+              not just the object itself.
             </p>
             <p className="">
-              Most of what&apos;s on this site started as a rough version that
-              didn&apos;t work right the first time. That&apos;s usually where
-              the real design work happens.
+              If you need a prototype that&apos;s ready to show investors or
+              manufacturers, this is what I do.
             </p>
           </div>
         </div>
