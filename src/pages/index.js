@@ -1,23 +1,15 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/charpin-profile-2024-01.webp";
+// import profilePic from "../../public/images/profile/charpin-profile-2024-01.webp";
+import profilePic from "../../public/images/profile/charpin-profile-2023.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
-import AboutMe from "@/components/About";
-import Education from "@/components/Education";
-import Experience from "@/components/Experience";
-import { motion } from "framer-motion";
 import IndexProjects from "@/components/IndexProjects";
 import Services from "@/components/Services";
-
-const fadeIn = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0 },
-};
 
 export default function Home() {
   return (
@@ -68,7 +60,7 @@ export default function Home() {
                   Tell me about your product <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="/Michael Charpin-CV-0624.pdf"
+                  href="/Mike Charpin - 052026 - CV.pdf"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                   download={true}
@@ -80,10 +72,6 @@ export default function Home() {
           </div>
           <Services />
           <IndexProjects />
-          <AboutMe />
-
-          <Experience />
-          <Education />
         </Layout>
         <HireMe />
       </main>
