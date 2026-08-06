@@ -1,7 +1,8 @@
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/charpin-profile-2023.jpg";
+// import profilePic from "../../public/images/profile/charpin-profile-2023.jpg";
+import profilePic from "../../public/images/profile/charpin-profile-2024-01.webp";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 
 const AnimatedNumbers = ({ value }) => {
@@ -33,7 +34,7 @@ const AboutMe = () => {
     <>
       <div className="flex flex-col items-center justify-center dark:text-light px-4">
         <AnimatedText
-          text={"About me"}
+          text={"About"}
           classname="pt-16 pb-4 !text-5xl md:!text-4xl sm:!text-3xl"
         />
         <div className="flex w-full xs:flex-col sm:flex-col md:flex-col lg:flex-col gap-8 xs:items-center xs:justify-center md:items-center md:justify-center">
