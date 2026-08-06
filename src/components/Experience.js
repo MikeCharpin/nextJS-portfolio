@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
+import AnimatedText from "@/components/AnimatedText";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
@@ -44,9 +45,10 @@ const Experience = () => {
 
   return (
     <div className="pt-8">
-      <h2 className="font-bold text-8xl mb-8 w-full text-center  sm:text-6xl xs:text-4xl">
-        Experience
-      </h2>
+      <AnimatedText
+          text={"Experience"}
+          className="pb-4 !text-6xl md:!text-5xl sm:!text-4xl"
+        />
 
       <div ref={ref} className="w-[75%] mx-auto relative xs:w-full">
         <motion.div

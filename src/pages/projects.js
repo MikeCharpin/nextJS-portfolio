@@ -7,14 +7,10 @@ import Link from "next/link";
 import React from "react";
 import portfolioImage from "../../public/images/projects/Portfolio-Edited-01.jpeg";
 import rockPaperScissorsImage from "../../public/images/projects/RockPaperScissors-edited.jpeg";
-import pratumImage from "../../public/images/projects/Pratum-Edited.jpeg";
-import summerReadingImage from "../../public/images/projects/SummerReading-Edited.jpeg";
-import pixelSketchImage from "../../public/images/projects/PixelSketch-1280x720.jpeg";
 import proteusSingleHandAttachmentImage from "../../public/images/projects/proteusSingleHandAttachment.jpeg";
 import TC75MobileImage from "../../public/images/projects/TC75MobileImage.jpeg";
 import TC51HolsterImage from "../../public/images/projects/TC51HolsterImage.jpeg";
 import DeadChannelLogoImage from "../../public/images/projects/DeadChannelLogoImage.jpeg";
-import ResumeBuilderImage from "../../public/images/projects/ResumeBuilder-Edited.jpeg";
 import TulipTasksImage from "../../public/images/projects/TulipTasks.webp";
 import DatsunResourceImage from "../../public/images/projects/DatsunResource-Edited.webp";
 import DiceCapsuleImage from "../../public/images/projects/DiceCapsule-Edited.webp";
@@ -249,7 +245,7 @@ const projects = () => {
         <Layout className="pt-16">
            <AnimatedText
             text={"Industrial Design"}
-            classname="mb-8 mt-16 !text-6xl md:!text-5xl sm:!text-3xl"
+            className="mb-4 mt-8 !text-6xl md:!text-5xl sm:!text-3xl"
           />
           <div className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 ">
             <div className="col-span-2">
@@ -315,7 +311,7 @@ const projects = () => {
 
           <AnimatedText
             text={"Web Development"}
-            classname="mb-16 sm:mb-8 !text-6xl md:!text-5xl sm:!text-3xl"
+            className="mt-24 mb-8 sm:mb-4 !text-6xl md:!text-5xl sm:!text-3xl"
           />
 
           <div
