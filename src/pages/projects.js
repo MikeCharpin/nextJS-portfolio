@@ -14,6 +14,8 @@ import DeadChannelLogoImage from "../../public/images/projects/DeadChannelLogoIm
 import TulipTasksImage from "../../public/images/projects/TulipTasks.webp";
 import DatsunResourceImage from "../../public/images/projects/DatsunResource-Edited.webp";
 import DiceCapsuleImage from "../../public/images/projects/DiceCapsule-Edited.webp";
+import ZebraZC300 from "../../public/images/projects/Zebra-ZC300-02.jpg"
+import proteusEnclosure from "../../public/images/projects/Proteus-Enclosure.jpg"
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 
@@ -250,9 +252,9 @@ const projects = () => {
           <div className="grid grid-cols-2 gap-16 gap-y-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-y-8 ">
             <div className="col-span-2">
               <FeaturedIDProject
-                title={"Fitness Machine Attachment"}
+                title={"Fitness Machine Handle"}
                 summary={
-                  "Single hand attachment for the Proteus system, a fitness machine that incorporates robotics."
+                  "A single-hand interface designed to translate human movement into precise interaction with a robotic fitness platform."
                 }
                 link={
                   "https://www.behance.net/gallery/177955717/Proteus-Single-Hand-Attachment"
@@ -261,11 +263,39 @@ const projects = () => {
                 type={"Proteus Motion"}
               />
             </div>
+
+             <div className="col-span-2">
+              <FeaturedIDProject
+                title={"Proteus Enclosure"}
+                summary={
+                  "A complete hardware enclosure solution developed from concept through fabrication, assembly, and production-ready refinement for a robotic fitness system."
+                }
+                link={
+                  "https://www.behance.net/gallery/204164011/Sheet-Metal-Enclosure"
+                }
+                img={proteusEnclosure}
+                type={"Proteus Motion"}
+              />
+            </div>
+
+            <div className="col-span-2">
+              <FeaturedIDProject
+                title={"ZC300 Printer Cartridge"}
+                summary={
+                  "A cartridge experience that transforms an overlooked component into a simple, intuitive, and visually integrated interaction."
+                }
+                link={
+                  "https://www.behance.net/gallery/203712017/ID-Card-Printer-Ribbon-Carrier"
+                }
+                img={ZebraZC300}
+                type={"Zebra Technologies"}
+              />
+            </div>
             <div className="col-span-2">
               <FeaturedIDProject
                 title={"Dead Channel Dice Capsule"}
                 summary={
-                  "The Dice Capsule offers an elegant way to display and transport your favorite dice."
+                 " An interactive sci-fi inspired artifact that transforms dice storage into a captivating display experience."
                 }
                 link={
                   "https://www.behance.net/gallery/178339557/Dead-Channel-Dice-Capsule"
@@ -322,7 +352,7 @@ const projects = () => {
               <FeaturedProject
                 title={"Tulip Tasks Prioritization App"}
                 summary={
-                  "A thoughtful React web app designed to help overwhelmed people prioritize thier goals, projects, and tasks."
+                  "A personal productivity system designed to make managing goals and responsibilities feel more approachable, visual, and engaging."
                 }
                 link={"/tulip-tasks"}
                 target={""}
