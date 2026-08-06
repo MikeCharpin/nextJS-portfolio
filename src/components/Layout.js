@@ -4,7 +4,7 @@ const Layout = ({ children, className = "" }) => {
   return (
     <div
       className={`
-      w-full max-w-[1200px] h-full inline-block mx-auto z-0 bg-light xs:px-4 sm:px-4 md:px-16 lg:px-16 xl:px-24 2xl:px-32  py-16 dark:bg-dark  ${className}
+      w-full max-w-[1200px] h-full mx-auto z-0 bg-light xs:px-4 sm:px-4 md:px-16 lg:px-16 xl:px-24 2xl:px-32  py-16 dark:bg-dark  ${className}
       `}
     >
       {children}
